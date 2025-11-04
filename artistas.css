@@ -1,0 +1,33 @@
+:root {
+    --black: #C0C2E4;
+    --lighter: #585da8;
+    --light: #34397F;
+    --dark: #171C5B;
+}
+
+body {
+    margin: 20px;
+    background-color: var(--black);
+}
+
+.h1 {
+    color: var(--light);
+}
+
+.h2 {
+    color: var(--light);
+}
+
+.p {
+    color: var(--lighter);
+}
+
+.li {
+    color: var(--dark);
+}
+
+#origin {
+    color: var(--dark);
+}
+
+

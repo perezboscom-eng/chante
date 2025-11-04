@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Miranda</title>
+    <link rel="stylesheet" href="./entradas.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <span id="carta">0</span> 
+        </div>
+        <div class="producto">
+            <div class="caja">
+                <div class="detalles">
+                    <p>ENTRADA DE MIRANDA VIP </p>
+                    <h4>$250k</h4>
+                    <button id="boton">comprar entrada</button>
+                </div>
+                <div class="imagen">
+                    <img src="images/mirande.jpeg" alt="tini">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const carta=document.getElementById("carta");
+        const boton=document.getElementById("boton");
+        boton.addEventListener('click',()=>{
+            const cantidad=parseInt(carta.innerText,10)
+        })
+    </script>
+    <div class="contenedor">
+        <div class="cabecera">
+            <span id="carta">0</span> 
+        </div>
+        <div class="producto">
+            <div class="caja">
+                <div class="detalles">
+                    <p>ENTRADA DE MIRANDA NORMAL </p>
+                    <h4>$200k</h4>
+                    <button id="boton">comprar entrada</button>
+                </div>
+                <div class="imagen">
+                    <img src="images/mirande.jpeg" alt="tini">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const carta=document.getElementById("carta");
+        const boton=document.getElementById("boton");
+        boton.addEventListener('click',()=>{
+            const cantidad=parseInt(carta.innerText,10)
+        })
+    </script>
+</body>
+</html>
